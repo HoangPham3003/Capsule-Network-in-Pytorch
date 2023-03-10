@@ -23,9 +23,11 @@ BATCH_SIZE = 128
     LEARNING_RATE = 0.001
 ```
 
+## Model architecture
+The architecture of the model was followed strictly as mentioned in the paper and was defined in [CapsNet.py](https://github.com/HoangPham3003/Capsule-Network-in-Pytorch/blob/main/CapsNet.py)
+
 ## Training Procedure
 The training procedure can be followed up in the [MNIST_CapsuleNetwork.ipynb](https://github.com/HoangPham3003/Capsule-Network-in-Pytorch/blob/main/MNIST_CapsuleNetwork.ipynb)
-
 
 ## Benchmarks
 Highest accuracy was 99.3% on the 85/100 epoch.
