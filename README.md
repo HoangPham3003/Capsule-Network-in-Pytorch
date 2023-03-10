@@ -11,9 +11,6 @@ A Pytorch implementation of CapsNet based on Geoffrey Hinton's paper [Dynamic Ro
 - Tqdm 
 - Matplotlib (for showing some inferences after training)
 
-## Training Procedure
-The training procedure can be followed up in the [MNIST_CapsuleNetwork.ipynb](https://github.com/HoangPham3003/Capsule-Network-in-Pytorch/blob/main/MNIST_CapsuleNetwork.ipynb)
-
 ## Hyperparameters
 The hyperparameters I used can be different from other authors' a bit. 
 ```
@@ -25,6 +22,10 @@ BATCH_SIZE = 128
 - In the Decoder:
     LEARNING_RATE = 0.001
 ```
+
+## Training Procedure
+The training procedure can be followed up in the [MNIST_CapsuleNetwork.ipynb](https://github.com/HoangPham3003/Capsule-Network-in-Pytorch/blob/main/MNIST_CapsuleNetwork.ipynb)
+
 
 ## Benchmarks
 Highest accuracy was 99.3% on the 85/100 epoch.
